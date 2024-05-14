@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Styles/style.css">
+    <title>Ed-travels</title>
+    <link rel="icon" href="Assets/icons/icono.png">
+</head>
+<body>
+    <header>
+        <div class="header-izquierdo">
+            <h1>Ed-travel</h1>
+            <nav class="navegacion">
+                <div class="navIcono">
+                    <img id="avion" src="/Assets/icons/avion.png" alt="">
+                    <a href="Vuelos">Vuelos</a>
+                </div>
+                <div class="navIcono">
+                    <img id="carro" src="Assets/icons/carro.png" alt="">
+                    <a href="Alquiler">Alquiler de carros</a>
+                </div>
+                <div class="navIcono">
+                    <img src="Assets/icons/libro-abierto.png" alt="">
+                    <a href="Librerias">librerias</a>
+                </div>
+            </nav>
+        </div>
+        <div class="logo">
+            <img src="/Assets/icons/icono.png" alt="">
+        </div>
+    </header>
+    <section class="reserva">
+        <div class="desplegableCiudad">
+            <select name="ciudades" id="ciudades">
+                <option value="ciudades">ciudades de destino</option>
+                <option value="barranquilla">barranquilla</option>
+                <option value="bucaramanga">bucaramanga</option>
+                <option value="cali">cali</option>
+                <option value="catagena">cartegena</option>
+                <option value="cucuta">cucuta</option>
+                <option value="ibague">ibague</option>
+                <option value="ipiales">ipiales</option>
+                <option value="manizales">manizales</option>
+                <option value="medellin">medellin</option>
+                <option value="pereira">pereira</option>
+                <option value="popayan">popayan</option>
+                <option value="san-andres">san andres</option>
+                <option value="santa-marta">santa marta</option>
+            </select>
+        </div>
+        <div class="calendario-salida">
+            <p>Dia de Salida</p>
+            <input type="date">
+        </div>
+        <div class="calendario-regreso">
+            <p>Dia de Regreso</p>
+            <input type="date">
+        </div>
+        <div class="cantidad-personas">
+            <select name="cantidad" id="cantidad">
+                <option value="cantidad">cantidad de personas</option>
+                <option value="1">1 persona</option>
+                <option value="2">2 personas</option>
+                <option value="3">3 personas</option>
+                <option value="4">4 personas</option>
+                <option value="5">5 personas</option>
+            </select>
+        </div>
+    </section>
+    <main>
+        <div class="container-city">
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">barranquilla</p>
+                </div>
+                <img class="img-city" src="Assets/images/barranquilla.jpg" alt="barranquilla">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">bucaramanga</p>                
+                </div>
+                <img  class="img-city" src="Assets/images/bucaramanga.jpg" alt="bucaramanga">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">cali</p>                
+                </div>
+                <img  class="img-city"src="Assets/images/cali.jpg" alt="cali">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">cartagena</p>             
+                </div>
+                <img  class="img-city"src="Assets/images/cartagena.jfif" alt="cartagena">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">cucuta</p>            
+                </div>
+                <img  class="img-city"src="Assets/images/cucuta.jpg" alt="cucuta">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">ibague</p>          
+                </div>
+                <img  class="img-city"src="Assets/images/ibague.jfif" alt="ibague">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">ipiales</p>          
+                </div>
+                <img  class="img-city"src="Assets/images/ipiales.jfif" alt="ipiales">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">manizales</p>          
+                </div>
+                <img  class="img-city"src="Assets/images/manizales.jfif" alt="manizales">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">medellin</p>        
+                </div>
+                <img class="img-city" src="Assets/images/medellin.jfif" alt="medellin">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">pereira</p>      
+                </div>
+                <img class="img-city"src="Assets/images/pereira.jpg" alt="pereira">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">popayan</p>    
+                </div>
+                <img  class="img-city"src="Assets/images/popayan.jpg" alt="popayan">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">san andres</p>   
+                </div>
+                <img class="img-city"src="Assets/images/san andres.jfif" alt="san-andres">
+            </div>
+            <div class="city">
+                <div class="container-texto">
+                    <p class="texto">santa marta</p>
+                </div>
+                <img src="Assets/images/santa marta.jpg" alt="santa-marta">
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer-icons">
+            <div class="icons">
+                <img src="Assets/icons/whatssap.png" alt="whatssap">
+            </div>
+            <div class="icons">
+                <img src="Assets/icons/facebook.png" alt="facebook">
+
+            </div>
+            <div class="icons">
+                <img src="Assets/icons/instagram.png" alt="instagram">
+
+            </div>
+            <div class="icons">
+                <img src="Assets/icons/linkedin.png" alt="linked">
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
